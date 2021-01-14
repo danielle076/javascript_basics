@@ -5,9 +5,12 @@ This project contains the following files:
 * `console.js`
 * `primitivetypes.js`
 * `arithmeticoperators.js`
+* `arrays.js`  
 * `ifstatement.js`
 * `comparisonoperators.js`
 * `logicaloperators.js`
+* `boolean.js`
+* `loop.js`
 
 
 
