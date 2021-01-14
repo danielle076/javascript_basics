@@ -2,7 +2,8 @@
 
 This project contains the following files:
 * `variables.js`
-
+* `console.js`
+* `primitivetypes.js`
 
 
 
