@@ -12,6 +12,7 @@ This project contains the following files:
 * `boolean.js`
 * `loop.js`
 
+In the folder "Training" there are a few example exercises.
 
 
 
