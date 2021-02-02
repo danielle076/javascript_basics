@@ -7,7 +7,7 @@ Dit project bevat de volgende bestanden:
 * `d_rekenkundigeoperatoren.js` + `d_rekenkundigeoperatorenVoorbeelden.js`
 * `e_arrays.js` + `e_arraysVoorbeelden.js`
 * `f_ifstatement.js`
-* `g_vergelijkingsoperatoren.js`
+* `g_vergelijkingsoperatoren.js` + `g_vergelijkingsoperatorenVoorbeelden.js`
 * `logischeoperatoren.js`
 * `boolean.js`
 * `loop.js`
