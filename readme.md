@@ -9,7 +9,7 @@ Dit project bevat de volgende bestanden:
 * `f_ifstatement.js`
 * `g_vergelijkingsoperatoren.js` + `g_vergelijkingsoperatorenVoorbeelden.js`
 * `h_logischeoperatoren.js`
-* `boolean.js`
+* `i_boolean.js`
 * `loop.js`
 
 
