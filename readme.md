@@ -10,7 +10,7 @@ Dit project bevat de volgende bestanden:
 * `g_vergelijkingsoperatoren.js` + `g_vergelijkingsoperatorenVoorbeelden.js`
 * `h_logischeoperatoren.js`
 * `i_boolean.js`
-* `loop.js`
+* `j_loop.js`
 
 
 
