@@ -1,7 +1,7 @@
 ## Inhoudsopgave ##
 
 Dit project bevat de volgende bestanden:
-* `variabelen.js`
+* `a_variabelen.js`
 * `console.js`
 * `primitievesoorten.js`
 * `rekenkundigeoperatoren.js`
