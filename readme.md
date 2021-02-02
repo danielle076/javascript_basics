@@ -1,18 +1,18 @@
-## Table of Contents ##
+## Inhoudsopgave ##
 
-This project contains the following files:
-* `variables.js`
+Dit project bevat de volgende bestanden:
+* `variabelen.js`
 * `console.js`
-* `primitivetypes.js`
-* `arithmeticoperators.js`
+* `primitievesoorten.js`
+* `rekenkundigeoperatoren.js`
 * `arrays.js`  
 * `ifstatement.js`
-* `comparisonoperators.js`
-* `logicaloperators.js`
+* `vergelijkingsoperatoren.js`
+* `logischeoperatoren.js`
 * `boolean.js`
 * `loop.js`
 
-In the folder "Training" there are a few example exercises.
+
 
 
 
