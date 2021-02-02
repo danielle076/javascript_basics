@@ -2,7 +2,7 @@
 
 Dit project bevat de volgende bestanden:
 * `a_variabelen.js` + `a_variabelenVoorbeelden.js`
-* `console.js`
+* `b_console.js`
 * `primitievesoorten.js`
 * `rekenkundigeoperatoren.js`
 * `arrays.js`  

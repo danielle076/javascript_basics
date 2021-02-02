@@ -1,4 +1,4 @@
-// Anything you put between the () of console.log() will be displayed in the terminal
+// Alles wat je tussen de () van console.log() zet, wordt in de terminal weergegeven
 console.log("Hoera, hij doet het!");
 
 console.log("Hallo daar!");
