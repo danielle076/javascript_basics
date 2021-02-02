@@ -6,7 +6,7 @@ Dit project bevat de volgende bestanden:
 * `c_primitievesoorten.js`
 * `d_rekenkundigeoperatoren.js` + `d_rekenkundigeoperatorenVoorbeelden.js`
 * `e_arrays.js` + `e_arraysVoorbeelden.js`
-* `ifstatement.js`
+* `f_ifstatement.js`
 * `vergelijkingsoperatoren.js`
 * `logischeoperatoren.js`
 * `boolean.js`
