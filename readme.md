@@ -5,7 +5,7 @@ Dit project bevat de volgende bestanden:
 * `b_console.js`
 * `c_primitievesoorten.js`
 * `d_rekenkundigeoperatoren.js` + `d_rekenkundigeoperatorenVoorbeelden.js`
-* `arrays.js`  
+* `e_arrays.js`  
 * `ifstatement.js`
 * `vergelijkingsoperatoren.js`
 * `logischeoperatoren.js`
