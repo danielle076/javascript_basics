@@ -6,14 +6,34 @@
 // % Geeft als resultaat de rest van de deling x % y
 // ++ Vermeerdert de waarde van een variabele met 1 ++x
 // -- Vermindert de waarde van een variabele met 1 --x
-const total = 2 + 4 * 10 // geeft 42 en niet 60
 
-// JavaScript is een dynamisch getypeerde (ook wel losjes getypeerde) scripttaal. Dat wil zeggen, in JavaScript kunnen
+const total = 2 + 4 * 10
+console.log(total); // geeft 42 en niet 60
+
+// Postfix
+let x = 2;
+y = x++;
+console.log("X:", x + " Y:", y); // geeft X: 3 Y: 2
+
+var a = 3;
+b = a--;
+console.log("A:", a + " B:", b); // geeft A: 2 B: 3
+
+// Prefix
+let z = 5;
+w = ++z;
+console.log("Z:", z + " W:", w); // geeft Z: 6 W: 6
+
+var c = 2;
+d = --c;
+console.log("C:", c + " D:", d); // geeft C: 1 D: 1
+
+// JavaScript is een dynamisch getyp eerde (ook wel losjes getypeerde) scripttaal. Dat wil zeggen, in JavaScript kunnen
 // variabelen in verloop van tijd verschillende datatypes krijgen. Datatypes zijn in principe getypeerde gegevens die
 // kunnen worden gebruikt en gemanipuleerd in een programma.
 let banana = 42 // banana is nu een nummer
 banana = "geel" // banana is nu een string geworden
-banana = true // banaan is nu een boolean geworden
+banana = true // banana is nu een boolean geworden
 
 2 + 2 // geeft 4
 "2" + 2 // geeft 22
@@ -30,7 +50,7 @@ const address = street + houseNumber; // geeft “Prinsenlaan 12”
 
 const score1 = "seven";
 const score2 = "four";
-const total = score1 * score2; // geeft NaN (Not A Number) omdat je "seven" en "four" niet kan omzetten in een nummer
+const outcome = score1 * score2; // geeft NaN (Not A Number) omdat je "seven" en "four" niet kan omzetten in een nummer
 
 console.log(address);
-console.log(total);
+console.log(outcome);
