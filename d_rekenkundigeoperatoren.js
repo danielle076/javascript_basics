@@ -1,3 +1,4 @@
+// ARITHMETIC OPERATORS
 // + Telt twee waarden bij elkaar op x + y
 // - Trekt een waarde van een andere af x - y
 // * Vermenigvuldigt twee waarden x * y
@@ -7,7 +8,9 @@
 // -- Vermindert de waarde van een variabele met 1 --x
 const total = 2 + 4 * 10 // geeft 42 en niet 60
 
-// JavaScript is een loosely typed language: de variabelen zijn niet direct geassocieerd met een bepaald gegevenstype.
+// JavaScript is een dynamisch getypeerde (ook wel losjes getypeerde) scripttaal. Dat wil zeggen, in JavaScript kunnen
+// variabelen in verloop van tijd verschillende datatypes krijgen. Datatypes zijn in principe getypeerde gegevens die
+// kunnen worden gebruikt en gemanipuleerd in een programma.
 let banana = 42 // banana is nu een nummer
 banana = "geel" // banana is nu een string geworden
 banana = true // banaan is nu een boolean geworden
