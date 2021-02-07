@@ -6,7 +6,7 @@ Dit project bevat de volgende bestanden:
 * `c_gegevenstypen.js`
 * `d_rekenkundigeoperatoren.js` + `d_rekenkundigeoperatorenVoorbeelden.js`
 * `e_arrays.js` + `e_arraysVoorbeelden.js`
-* `f_ifstatement.js`
+* `f_conditioneleverklaringen.js`
 * `g_vergelijkingsoperatoren.js` + `g_vergelijkingsoperatorenVoorbeelden.js`
 * `h_logischeoperatoren.js`
 * `i_boolean.js`
