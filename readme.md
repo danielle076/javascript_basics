@@ -11,7 +11,7 @@ Dit project bevat de volgende bestanden:
 * `h_logischeoperatoren.js`
 * `i_boolean.js`
 * `j_loop.js` + `j_loopVoorbeelden.js`
-* `k_string.js`
+* `k_string.js` + `k_stringVoorbeelden.js`
 
 
 
