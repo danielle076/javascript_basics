@@ -15,11 +15,11 @@ example = 3;
 // We kunnen de variabelen initialiseren op het moment van declaratie of ook later wanneer we ze willen gebruiken. Hieronder
 // staan enkele voorbeelden van het declareren en initialiseren van variabelen in JavaScript.
 
-var name; // declaratie van een enkele variabele
+let name; // declaratie van een enkele variabele
 
-var person, title, num; // meerdere variabelen declareren
+let person, title, num; // meerdere variabelen declareren
 
-var anotherName = "Danielle";
+let anotherName = "Danielle"; // let op dat je "" gebruikt en niet “”
 anotherName = "Freckle"; // overschrijven van variabele Danielle naar Freckle
 
 // Checklist voor variabele namen:
@@ -44,6 +44,8 @@ let cat = "Freckle";
 let a=1,b=2,c=3;
 
 // let toewijzing
+// Merk op dat in dit geval het keyword "let" niet meer herhaald hoeft te worden bij "d = 4;". Het woord "let" wordt alleen
+// gebruikt wanneer je een nieuwe variabele maakt.
 let d = 3;
 d = 4; // overschrijven van variabele 3 naar 4
 
