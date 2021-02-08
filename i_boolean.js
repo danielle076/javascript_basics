@@ -1,28 +1,20 @@
-// boolean: truthy (soort-van-waar) en falsy (soort-van-niet-waar)
+// BOOLEAN
+// Boolean is een datatype dat één van de twee waarden teruggeeft: waar (true) of niet waar (false).
 
-// De volgende waarden worden geconverteerd naar een truthy waarde in een vergelijking:
-// if ('hello') {} // een string-waarde
-// if ('false') {} // een string-waarde die het woord 'false' bevat
-// if (1) {} // een numerieke waarde die niet 0 is
-// if ([]) {} // een lege array
-// if ({}) {} // een leeg object
-// if (functie(){}) {} // een lege functie
+// VOORBEELDEN WAAR
+console.log('Boolean(5) is ' + Boolean(5));
+console.log('Boolean(15.36) is ' + Boolean(15.36));
+console.log('Boolean(-21) is ' + Boolean(-21));
+console.log("Boolean('true') is " + Boolean('true'));
+console.log("Boolean('false') is " + Boolean('false'));
+console.log('Boolean(12 * 3.1 + 20) is ' + Boolean(12 * 3.1 + 20));
+console.log('Boolean(10 < 15) is ' + Boolean(10 < 15));
 
-// De volgende waarden worden in een vergelijking geconverteerd naar een falsy waarde:
-// if (0) {} // het getal nul
-// if ('') {} // of "" (een lege string)
-// if (null) {} // de lege waarde null
-// if (undefined) {} // niet-toegewezen waarde
-// if (NaN) {} // Not a Number
-
-const bigger = 2 > 4;
-// dit
-if(!bigger) {}
-// in plaats van dit
-if(bigger === false) {}
-
-const ingredients = ["Garlic", "Onion", "Grated cheese"];
-// dit
-if (!ingredients) {}
-// in plaats van dit
-if (ingredients === undefined) {}
+// VOORBEELDEN NIET WAAR
+console.log('Boolean(0) is ' + Boolean(0));
+console.log('Boolean("") is ' + Boolean(""));
+console.log('Boolean(-0) is ' + Boolean(-0));
+console.log('Boolean(false) is ' + Boolean(false));
+console.log('Boolean(NaN) is ' + Boolean(NaN));
+console.log('Boolean(null) is ' + Boolean(null));
+console.log('Boolean(10 > 15) is ' + Boolean(10 > 15));
