@@ -19,3 +19,23 @@ alert(tweetUnder140);
 
 // Korte versie
 alert(prompt("Compose your tweet").slice(0,140));
+
+// 3. Maak een prompt die de gebruiker vraagt naar hun naam. Als ze een naam geven die een hoofdletter of kleine letter is,
+// moet je een alert te sturen dat zegt Hello, en dan hun naam, maar de eerste letter van de naam moet een hoofdletter zijn.
+let name = prompt("Whats your name?");
+let firstChar = name.slice(0,1);
+let upperCaseFirstChar = firstChar.toUpperCase();
+let restOfName = name.slice(1,name.length);
+let fullName = upperCaseFirstChar + restOfName;
+alert("Hello, " + fullName);
+
+// 4. Maak een prompt die de gebruiker vraagt naar hun naam. Als ze een naam geven die een hoofdletter of kleine letter is,
+// moet je een alert te sturen dat zegt Hello, en dan hun naam, maar de eerste letter van de naam moet een hoofdletter zijn.
+// Wanneer de gebruiker hun naam als "daNIElle" heeft geschreven moet je in je alert "Danielle" teruggeven.
+let name = prompt("Whats your name?");
+let firstChar = name.slice(0,1);
+let upperCaseFirstChar = firstChar.toUpperCase();
+let restOfName = name.slice(1,name.length);
+restOfName = restOfName.toLowerCase();
+let fullName = upperCaseFirstChar + restOfName;
+alert("Hello, " + fullName);
