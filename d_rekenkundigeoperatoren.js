@@ -15,7 +15,7 @@ let x = 2;
 y = x++;
 console.log("X:", x + " Y:", y); // geeft X: 3 Y: 2
 
-var a = 3;
+let a = 3;
 b = a--;
 console.log("A:", a + " B:", b); // geeft A: 2 B: 3
 
@@ -24,20 +24,20 @@ let z = 5;
 w = ++z;
 console.log("Z:", z + " W:", w); // geeft Z: 6 W: 6
 
-var c = 2;
+let c = 2;
 d = --c;
 console.log("C:", c + " D:", d); // geeft C: 1 D: 1
 
 // Als je de waarde van e met meer dan één wilt verhogen dan kun je += gebruiken. Dit is gelijk aan "e = e + 2"
 // en e is nu gelijk aan 7.
-var e = 5;
+let e = 5;
 e += 2;
 console.log("E:", e); // geeft 7
 
 // In dit geval is "f = f + g", wat gelijk is aan 8.
 // Dit werkt ook met -=, *=, /=.
-var f = 5;
-var g = 3;
+let f = 5;
+let g = 3;
 f += g;
 console.log("F:", f); // geeft 8
 
