@@ -1,3 +1,4 @@
+// LOOP
 // Als we weten hoe vaak we iets willen herhalen kunnen we een for-loop gebruiken.
 // In een for-loop wordt de code herhaaldelijk uitgevoerd totdat de voorwaarde niet meer waar is.
 

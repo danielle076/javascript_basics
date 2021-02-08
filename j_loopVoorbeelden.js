@@ -3,6 +3,7 @@ for (let i = 0; i < 3; i++) {
     console.log('Hooray!');
 }
 
+
 // 2. Maak een for-loop die loopt van 0 tot 9 en logt de getallen 0 tot 9.
 // Echter, beginnend met het getal 3, zal er een > voor elk getal staan.
 // Beginnend met het getal 6, komt er >> voor elk getal. Geeft:
@@ -25,6 +26,7 @@ for (let i = 0; i < 10; i++) {
         console.log('>> '+i);
     }
 }
+
 
 // 3. Maak een for-loop die loopt van 0 tot 15. Voor elk getal, logt de console of het even of oneven is. Geeft:
 // 0 is even
