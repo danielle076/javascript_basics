@@ -28,3 +28,18 @@ let numberOfChildren = 0;
 
 // 8. Gebruik de variabelen om hun waarden in de terminal te loggen. Zijn ze allemaal correct?
 console.log(name, eyeColor, age, profession, shoeSize, hasPartner, numberOfChildren); // geeft Daniëlle Groen 37 Student 38 false 0
+
+
+// 9. Gegeven de bestaande code hieronder, kun je de code schrijven zodat hun waarden omgewisseld worden?
+let a = "3";
+let b = "8";
+// Zodat de variabele "a" de waarde "8" heeft en de variabele "b" heeft de waarde "3".
+// Verander NIETS aan de bestaande code.
+// Je mag GEEN getallen typen.
+// Je mag de variabelen a en b NIET opnieuw declareren.
+let c = a;
+a = b;
+b = c;
+
+console.log("a is " + a);
+console.log("b is " + b);
