@@ -37,3 +37,22 @@ console.log(pet.slice(2,5)); // geeft eck
 // Tip: om snel erachter te komen hoeveel karakters je snijdt, kun je de bovengrens nemen min de ondergrens.
 // Bijvoorbeeld, [0, 3]  3 - 0 is 3 tekens, dat betekent dat je er drie karakters uithaalt. Of [1, 5]  5 - 1 is 4,
 // zou er vier tekens uit moeten komen.
+
+// STRING toUpperCase()
+// De toUpperCase() methode veranderd alle tekens in de string in hoofdletters.
+const snow = "Icey";
+console.log(snow.toUpperCase()); // geeft ICEY
+
+// Wanneer je "snow" oproept krijg je Icey en niet ICEY.
+console.log(snow); // geeft Icey
+
+// Om hem op te slaan in de variabele moet je een nieuwe variabele maken.
+let ice = "White";
+ice = ice.toUpperCase();
+console.log(ice); // geeft WHITE
+
+// STRING toLowerCase()
+// De toLowerCase() methode veranderd alle tekens in de string in kleine letters.
+let weather = "BLUE";
+weather = weather.toLowerCase();
+console.log(weather); // geeft blue
