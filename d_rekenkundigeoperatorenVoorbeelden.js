@@ -42,3 +42,11 @@ const city = "Breda";
 const state = "Noord-Brabant";
 const location = city + ", " + state;
 console.log(location); // geeft Breda, Noord-Brabant
+
+
+// 8. Maak een prompt waarin je vraagt aan de gebruiker hoe oud zijn/haar hond is en bereken hoe oud de hond is als hij
+// een mens zou zijn. Met de volgende code kun je een hondenleeftijd naar een mensenleeftijd omrekenen.
+// humanAge = (dogAge -2) x 4 + 21
+let dogAge = prompt("How old is your dog?");
+let humanAge = ((dogAge - 2) * 4) + 21;
+alert("You dog is " + humanAge + " years old in human years.");
