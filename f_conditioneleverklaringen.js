@@ -103,6 +103,9 @@ if (j == 10) {
 
 // SWITCH
 // Gebruik de switch-statement een van de vele codeblokken te selecteren die moeten worden uitgevoerd.
+// Een switch-statement is erg nuttig in het geval dat je:
+// - Drie of meer mogelijkheden hebt.
+// - Wanneer de beslissing altijd afhangt van één waarde, zoals een type.
 
 // SWITCH SYNTAX
 // De switch expression wordt eenmaal geëvalueerd.
@@ -169,3 +172,25 @@ switch (new Date().getDay()) {
 }
 
 console.log("Text:", text);
+
+// VOORBEELD SWITCH RETURN I.P.V. BREAK
+// In bovenstaande voorbeelden hebben we altijd het break-keyword gebruikt. Wanneer je een switch-statement in een
+// functie gebruikt die een waarde terug moet geven is een break niet altijd handig. We kunnen in dat geval return
+// gebruiken en dit heeft exact hetzelfde effect.
+function getBrowserString(browser) {
+    switch (browser) {
+        case "Edge":
+            return "Gelukkig gebruik je geen Internet Explorer meer!";
+        case "Chrome":
+        case "Firefox":
+        case "Safari":
+        case "Opera":
+            return "Deze browser wordt ondersteund!";
+
+        default:
+            return "Hmmm... Hopelijk ziet de pagina er nog ok uit.";
+    }
+}
+
+const string = getBrowserString("Chrome");
+console.log(string); // geeft Deze browser wordt ondersteund!
